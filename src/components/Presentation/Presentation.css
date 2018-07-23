@@ -1,0 +1,27 @@
+.presentation {
+    color: #fff;
+    margin-top: 190px;
+}
+
+.presentation__general-text{
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.presentation__main-text{
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 27px;
+    width: 30%;
+}
+.presentation__button{
+    background: #fab702;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 13px 18px 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}

@@ -1,0 +1,15 @@
+.main{
+    background: #f8f9f9;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main p,
+.main ul{
+    line-height: 24px;
+}
+
+.main__our-strength{
+    margin-left: 50px;
+}

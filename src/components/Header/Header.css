@@ -1,0 +1,15 @@
+.header-part{
+    color: #fff;
+    padding-top: 30px;
+    background-blend-mode: overlay;
+    background-size: 15%;
+}
+
+.header-part__logo{
+    margin-top: 25px;
+}
+
+.header-part__phone{
+    display: inline-block;
+    margin-right: 15px;
+}

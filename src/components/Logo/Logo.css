@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic');
+
+.logo{
+    position: relative;
+}
+.ui.header>img.logo__icon{
+    margin-right: 0;
+    margin-top: 0;
+    width: 40px;
+}
+
+
+.ui.header.logo__header{
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 0.15em;
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}

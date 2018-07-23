@@ -1,0 +1,30 @@
+.portfolio{
+    background: #fab702;
+    padding: 30px 0;
+}
+.portfolio .ui.medium.image,
+.portfolio .ui.medium.images .image{
+    height: 300px;
+    overflow: hidden;
+}
+
+.portfolio .ui.image img,
+.portfolio .ui.image svg {
+    max-width: none;
+    height: auto;
+    width: auto;
+}
+
+.portfolio .ui.images .image,
+.portfolio .ui.images>img,
+.portfolio .ui.images>svg{
+    margin: 0;
+}
+
+h2.ui.header.portfolio__title::after {
+    background: #fff;
+}
+
+.ui.images.portfolio__images {
+    margin-top: 30px;
+}

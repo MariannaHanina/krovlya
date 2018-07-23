@@ -1,0 +1,21 @@
+.since{
+    color: #fff;
+    background: #fab702;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 34px;
+}
+.since__text{
+    font-size: 20px;
+}
+.since__button-container{
+    text-align: right;
+}
+.ui.button.since__button{
+    background: transparent !important;
+    border: 2px solid #FFF;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+}

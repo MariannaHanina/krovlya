@@ -1,0 +1,30 @@
+.service-card {
+    white-space: normal;
+}
+
+.ui.card.service-card>.content>.header,
+.ui.cards>.card.service-card>.content>.header {
+    font-family: 'Rubik', sans-serif;
+}
+
+.ui.card.service-card,
+.ui.cards>.card.service-card {
+    border-radius: 3px;
+}
+
+.ui.card.service-card>:first-child,
+.ui.cards>.card.service-card>:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.ui.card.service-card>.extra,
+.ui.cards>.card.service-card>.extra {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.service-card__price{
+    color: #fab702;
+    font-size: 1.3em;
+}

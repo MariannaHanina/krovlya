@@ -1,0 +1,17 @@
+.social-links__link{
+    color: #fff;
+    border: 1px solid #fff;
+    line-height: 1.75em;
+    height: 1.8em;
+    width: 1.8em;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.social-links__link:hover{
+    border-color: #fab702;
+}
+
+.ui.horizontal.list>.item.social-links__item{
+    margin-left: 0.5em;
+}
