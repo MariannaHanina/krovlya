@@ -36,7 +36,7 @@ class App extends Component {
                               services={servicesData}/>
                 <PortfolioPart id={'portfolioPart'}
                                title="Портфолио"
-                               images={portfolioData}/>
+                               portfolioData={portfolioData}/>
                 <ContactsPart id={'contactsPart'}
                               title="Контакты"/>
 

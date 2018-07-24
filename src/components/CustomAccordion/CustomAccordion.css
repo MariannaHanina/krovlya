@@ -1,0 +1,16 @@
+.ui.accordion.custom-accordion .title:not(.ui){
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+}
+
+.ui.accordion.custom-accordion .accordion .title .dropdown.icon,
+.ui.accordion.custom-accordion .title .dropdown.icon{
+    line-height: 0.7;
+}
+
+.custom-accordion .tile-bottom-bar div span{
+    color: #fff !important;
+    border-radius: 2px !important;
+    font-weight: normal !important;
+    text-transform: lowercase;
+}

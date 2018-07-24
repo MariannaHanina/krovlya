@@ -17,8 +17,8 @@ export default (props) => {
                     <List.Item content="без выходных с 9:00 до 20:00"/>
                 </List>
             </Container>
-            <iframe className="contacts__map"
-                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Acfbcfaaef06353f9e0c7fb994815ab85eeaa594f9e1bdb463d5695a1863d02e0&amp;source=constructor" width="100%" height="450" frameBorder="0"></iframe>
+            {/*<iframe className="contacts__map"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Acfbcfaaef06353f9e0c7fb994815ab85eeaa594f9e1bdb463d5695a1863d02e0&amp;source=constructor" width="100%" height="450" frameBorder="0"></iframe>*/}
         </div>
     );
 }
