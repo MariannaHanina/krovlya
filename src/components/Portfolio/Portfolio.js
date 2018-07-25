@@ -26,6 +26,7 @@ export default class Portfolio extends Component {
 
             return item;
         });
+
         return (
             <div className="portfolio">
                 <Container {...otherProps}>

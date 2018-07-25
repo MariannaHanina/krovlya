@@ -1,10 +1,6 @@
 .portfolio{
-    background: #fab702;
+    background: #f8f9f9;
     padding: 30px 0;
-}
-
-h2.ui.header.portfolio__title::after {
-    background: #fff;
 }
 
 .ui.images.portfolio__images {

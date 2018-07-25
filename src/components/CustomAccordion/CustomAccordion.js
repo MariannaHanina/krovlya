@@ -24,11 +24,12 @@ export default class CustomAccordion extends Component {
     render() {
         const { activeIndex } = this.state;
         const { items } = this.props;
+        console.log('items', items);
         const itemsEl = items.map((item) => (
             <div key={item.index}>
                 <Accordion.Title active={activeIndex === item.index} index={item.index} onClick={this.handleClick}>
-                    <Icon name='dropdown' />
-                    {item.title}
+                    <Icon name='arrow circle right' />
+                    {item.title} ({item.images.length} фото)
                 </Accordion.Title>
                 <Accordion.Content active={activeIndex === item.index}>
                     {item.content}

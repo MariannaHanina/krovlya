@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic');
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
 a,
 a:hover{
     color: #fab702;

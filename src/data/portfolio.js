@@ -55,22 +55,6 @@ export default [
                 caption: "Монтаж водостока (13.05.2016)"
             },
             {
-                src: drainpipe3,
-                thumbnail: drainpipe3,
-                thumbnailWidth: 320,
-                thumbnailHeight: 566,
-                tags: [{value: "Водосток", title: "drainpipe"}, {value:'13.05.2016', title: '13052016'}],
-                caption: "Монтаж водостока (13.05.2016)"
-            },
-            {
-                src: drainpipe4,
-                thumbnail: drainpipe4,
-                thumbnailWidth: 320,
-                thumbnailHeight: 566,
-                tags: [{value: "Водосток", title: "drainpipe"}, {value:'13.05.2016', title: '13052016'}],
-                caption: "Монтаж водостока (13.05.2016)"
-            },
-            {
                 src: drainpipe5,
                 thumbnail: drainpipe5,
                 thumbnailWidth: 320,
@@ -117,6 +101,21 @@ export default [
                 thumbnailHeight: 426,
                 tags: [{value: "Водосток", title: "drainpipe"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж водостока (2017)"
+            },{
+                src: drainpipe3,
+                thumbnail: drainpipe3,
+                thumbnailWidth: 320,
+                thumbnailHeight: 566,
+                tags: [{value: "Водосток", title: "drainpipe"}, {value:'13.05.2016', title: '13052016'}],
+                caption: "Монтаж водостока (13.05.2016)"
+            },
+            {
+                src: drainpipe4,
+                thumbnail: drainpipe4,
+                thumbnailWidth: 320,
+                thumbnailHeight: 566,
+                tags: [{value: "Водосток", title: "drainpipe"}, {value:'13.05.2016', title: '13052016'}],
+                caption: "Монтаж водостока (13.05.2016)"
             }
         ]
     },
@@ -128,7 +127,7 @@ export default [
                 src: metaltile1,
                 thumbnail: metaltile1,
                 thumbnailWidth: 320,
-                thumbnailHeight: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -136,6 +135,7 @@ export default [
                 src: metaltile2,
                 thumbnail: metaltile2,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -143,6 +143,7 @@ export default [
                 src: metaltile3,
                 thumbnail: metaltile3,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -150,6 +151,7 @@ export default [
                 src: metaltile4,
                 thumbnail: metaltile4,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -157,6 +159,7 @@ export default [
                 src: metaltile5,
                 thumbnail: metaltile5,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -164,6 +167,7 @@ export default [
                 src: metaltile6,
                 thumbnail: metaltile6,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -171,6 +175,7 @@ export default [
                 src: metaltile7,
                 thumbnail: metaltile7,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -178,6 +183,7 @@ export default [
                 src: metaltile8,
                 thumbnail: metaltile8,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"},{value:'Обрешетка', title: 'lathing'}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. Обрешетка (2017)"
             },
@@ -185,6 +191,7 @@ export default [
                 src: metaltile9,
                 thumbnail: metaltile9,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -192,6 +199,7 @@ export default [
                 src: metaltile10,
                 thumbnail: metaltile10,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -199,6 +207,7 @@ export default [
                 src: metaltile11,
                 thumbnail: metaltile11,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'стропильная система', title: 'rafter_system'}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. Стропильная система (2017)"
             },
@@ -206,6 +215,7 @@ export default [
                 src: metaltile12,
                 thumbnail: metaltile12,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'стропильная система', title: 'rafter_system'}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. Стропильная система (2017)"
             },
@@ -213,6 +223,7 @@ export default [
                 src: metaltile13,
                 thumbnail: metaltile13,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -220,6 +231,7 @@ export default [
                 src: metaltile14,
                 thumbnail: metaltile14,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -227,6 +239,7 @@ export default [
                 src: metaltile15,
                 thumbnail: metaltile15,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы (2017)"
             },
@@ -234,6 +247,7 @@ export default [
                 src: metaltile16,
                 thumbnail: metaltile16,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'До', title: 'before'}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. До (2017)"
             },
@@ -241,6 +255,7 @@ export default [
                 src: metaltile17,
                 thumbnail: metaltile17,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'После', title: 'after'}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. После (2017)"
             },
@@ -248,6 +263,7 @@ export default [
                 src: metaltile18,
                 thumbnail: metaltile18,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'Обрешетка', title: 'lathing'}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. Обрешетка (2017)"
             },
@@ -255,6 +271,7 @@ export default [
                 src: metaltile19,
                 thumbnail: metaltile19,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. (2017)"
             },
@@ -262,6 +279,7 @@ export default [
                 src: metaltile20,
                 thumbnail: metaltile20,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. (2017)"
             },
@@ -269,6 +287,7 @@ export default [
                 src: metaltile21,
                 thumbnail: metaltile21,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. (2017)"
             },
@@ -276,6 +295,7 @@ export default [
                 src: metaltile22,
                 thumbnail: metaltile22,
                 thumbnailWidth: 320,
+                thumbnailHeight: 240,
                 tags: [{value: "Металлочерепица", title: "metaltile"}, {value:'2017', title: '2017'}],
                 caption: "Монтаж металлочерепицы. (2017)"
             }

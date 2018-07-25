@@ -1,11 +1,25 @@
 .ui.accordion.custom-accordion .title:not(.ui){
     font-family: 'Rubik', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.45em;
+}
+.ui.accordion.custom-accordion .title{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.ui.accordion.custom-accordion .accordion .title .arrow.icon,
+.ui.accordion.custom-accordion .title .arrow.icon{
+    color: #fab702;
+    margin-right: 10px;
+}
+.ui.accordion.custom-accordion .accordion .active.title .arrow.icon,
+.ui.accordion.custom-accordion .active.title .arrow.icon {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
-.ui.accordion.custom-accordion .accordion .title .dropdown.icon,
-.ui.accordion.custom-accordion .title .dropdown.icon{
-    line-height: 0.7;
+.custom-accordion .tile-bottom-bar {
+    padding-bottom: 5px !important;
+    text-align: left !important;
 }
 
 .custom-accordion .tile-bottom-bar div span{
@@ -13,4 +27,12 @@
     border-radius: 2px !important;
     font-weight: normal !important;
     text-transform: lowercase;
+}
+
+.custom-accordion .tile-viewport{
+    border-bottom: 4px solid #fab702;
+}
+
+.custom-accordion .tile{
+    margin: 10px !important;
 }
