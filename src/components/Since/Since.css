@@ -11,11 +11,21 @@
 .since__button-container{
     text-align: right;
 }
-.ui.button.since__button{
+a.since__button{
     background: transparent !important;
     border: 2px solid #FFF;
     border-radius: 3px;
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
+    padding: 15px 18px 13px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 0.9em;
+}
+
+a.since__button:hover{
+    color: #fff;
+    opacity: .9;
 }

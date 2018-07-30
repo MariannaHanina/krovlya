@@ -1,0 +1,10 @@
+.ads{
+    padding: 30px 0;
+}
+
+.ads__site {
+    position: relative;
+}
+.ads h2.ui.header{
+    color: #fab702;
+}

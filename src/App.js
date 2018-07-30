@@ -8,6 +8,7 @@ import SincePart from './components/Since/Since';
 import MainPart from './components/Main/Main';
 import ServicesPart from "./components/ServicesList/ServicesList";
 import PortfolioPart from "./components/Portfolio/Portfolio";
+import AdsPart from "./components/Ads/Ads";
 import ContactsPart from "./components/Contacts/Contacts";
 
 // Data
@@ -21,11 +22,30 @@ import './App.css';
 
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {headerStickyTop : false};
+    }
+    componentDidMount() {
+        window.addEventListener('scroll', this.checkScrollState.bind(this, window));
+    }
+    checkScrollState (window) {
+        console.log(window.scrollY);
+        if(window.scrollY >= 413) this.setState({headerStickyTop : true});
+        else this.setState({headerStickyTop : false});
+    }
+
+    isStickyTop () {
+        return this.state.headerStickyTop ? 'App__top App__top_sticky' : 'App__top';
+    }
+
     render() {
         return (
             <div className="App">
-                <HeaderPart className="App__header-part"/>
-                <NavPart navItems={navItemsData}/>
+                <div className={this.isStickyTop()}>
+                    <HeaderPart className="App__header-part"/>
+                    <NavPart navItems={navItemsData}/>
+                </div>
                 <Container className="App__presentation-info">
                     <PresentationPart presentationInfo={presentationData}/>
                 </Container>
@@ -37,9 +57,9 @@ class App extends Component {
                 <PortfolioPart id={'portfolioPart'}
                                title="Портфолио"
                                portfolioData={portfolioData}/>
+                <AdsPart title="Вас может заинтересовать:"/>
                 <ContactsPart id={'contactsPart'}
                               title="Контакты"/>
-
             </div>
         );
     }

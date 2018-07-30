@@ -44,6 +44,52 @@ h2.ui.header:after{
     margin-top: 10px;
 }
 
+.ribbon__wrap {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    overflow: hidden;
+}
+.ribbon__wrap:before, .ribbon__wrap:after {
+    content: "";
+    position: absolute;
+}
+.ribbon__wrap:before {
+    width: 40px;
+    height: 8px;
+    right: 100px;
+    background: #4D6530;
+    border-radius: 8px 8px 0px 0px;
+}
+.ribbon__wrap:after {
+    width: 8px;
+    height: 40px;
+    right: 0px;
+    top: 100px;
+    background: #4D6530;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.ribbon {
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 30px;
+    right: -50px;
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 1px dashed;
+    box-shadow:0 0 0 3px #57DD43,  0px 21px 5px -18px rgba(0,0,0,0.6);
+    background: #57DD43;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .App{
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.25) 20%,rgba(0,0,0,0) 100%), url('images/bg.jpg') no-repeat;
     background-attachment: fixed;
@@ -51,7 +97,21 @@ h2.ui.header:after{
 
     font-family: 'Rubik', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 190px 0 0;
+    position: relative;
+}
+
+.App__top {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 10000;
+}
+
+.App__top_sticky{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.6) 100%);
+    position: fixed;
+    transition: 10s;
 }
 
 .App__presentation-info {
