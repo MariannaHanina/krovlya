@@ -4,11 +4,11 @@ import ServiceCard from 'components/ServiceCard/ServiceCard';
 import './ServicesList.css';
 
 function ServicesList (props) {
-    const {title, services, ...otherProps} = props;
+    const {title, id, services, ...otherProps} = props;
     const servicesList = services.map(item => (<ServiceCard key={item.id} {...item}/>));
 
     return (
-        <div className="services">
+        <div className="services" id={id}>
             <Container {...otherProps}>
                 <Header as="h2">{title}</Header>
             </Container>

@@ -10,6 +10,7 @@ import ServicesPart from "./components/ServicesList/ServicesList";
 import PortfolioPart from "./components/Portfolio/Portfolio";
 import AdsPart from "./components/Ads/Ads";
 import ContactsPart from "./components/Contacts/Contacts";
+import FooterPart from "./components/Footer/Footer";
 
 // Data
 import navItemsData from './data/navItems';

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Header, Container, Icon, Accordion } from 'semantic-ui-react';
 import Gallery from 'react-grid-gallery';
+import ImageGallery from 'react-image-gallery';
 import CustomAccordion from 'components/CustomAccordion/CustomAccordion';
 
 // Style
@@ -15,12 +16,19 @@ export default class Portfolio extends Component {
     }
 
     render() {
-        const {title, portfolioData, ...otherProps} = this.props;
+        const {title, id, portfolioData, ...otherProps} = this.props;
         const portfolioDataWithContent = portfolioData.map((item) => {
+            item.images = item.images.map(item => ({
+                original: item.thumbnail,
+                thumbnail: item.thumbnail,
+                sizes: {width: 'auto', height: '150px'}
+            }));
+
             item.content = (
                 <Container className="portfolio__gallery"
                            textAlign="center">
-                    <Gallery images={item.images}/>
+                    <ImageGallery items={item.images}/>
+                    {/*<Gallery images={item.images} id="gallary{item.index}"/>*/}
                 </Container>
             );
 
@@ -28,7 +36,7 @@ export default class Portfolio extends Component {
         });
 
         return (
-            <div className="portfolio">
+            <div className="portfolio" id={id}>
                 <Container {...otherProps}>
                     <Header as="h2" className="portfolio__title">{title}</Header>
                 </Container>

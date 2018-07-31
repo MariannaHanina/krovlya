@@ -11,7 +11,7 @@ export default (props) => {
             <Container>
                 <Header as="h2" className="contacts__title">{title}</Header>
                 <div className="ads__site">
-                    <iframe src="http://ecostroymsk.ru/" frameborder="0" width="100%" height="500px"></iframe>
+                    <iframe src="http://ecostroymsk.ru/" frameBorder="0" width="100%" height="500px"></iframe>
                     {/*<div class="ribbon__wrap">
                         <span class="ribbon">Строительство домов из двойного бруса</span>
                     </div>*/}

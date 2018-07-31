@@ -70,7 +70,7 @@ import naturalshingles7 from '../images/portfolio/naturalshingles/7.jpg';
 
 export default [
     {
-        index: 1,
+        index: 2,
         title: 'Монтаж водостока',
         images: [{
                 src: drainpipe1,
@@ -154,7 +154,7 @@ export default [
         ]
     },
     {
-        index: 2,
+        index: 3,
         title: "Монтаж металлочерепицы",
         images:[
             {
@@ -336,7 +336,7 @@ export default [
         ]
     },
     {
-        index: 3,
+        index: 4,
         title: "Монтаж мягкой кровли",
         images:[
             {
@@ -510,7 +510,7 @@ export default [
         ]
     },
     {
-        index: 4,
+        index: 5,
         title: "Монтаж натуральной черепицы",
         images: [
             {

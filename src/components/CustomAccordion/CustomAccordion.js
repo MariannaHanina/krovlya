@@ -24,9 +24,8 @@ export default class CustomAccordion extends Component {
     render() {
         const { activeIndex } = this.state;
         const { items } = this.props;
-        console.log('items', items);
         const itemsEl = items.map((item) => (
-            <div key={item.index}>
+            <div key={item.index} className="custom-accordion__item-content">
                 <Accordion.Title active={activeIndex === item.index} index={item.index} onClick={this.handleClick}>
                     <Icon name='arrow circle right' />
                     {item.title} ({item.images.length} фото)

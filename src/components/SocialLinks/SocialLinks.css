@@ -8,10 +8,16 @@
     border-radius: 50%;
 }
 
-.social-links__link:hover{
+.social-links__link:hover,
+.social-links__link:hover .icon:before{
     border-color: #fab702;
+    color: #fab702;
 }
 
 .ui.horizontal.list>.item.social-links__item{
     margin-left: 0.5em;
+}
+
+.ui.horizontal.list>.item.social-links__item a{
+    color: #fff;
 }

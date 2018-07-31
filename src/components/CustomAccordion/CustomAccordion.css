@@ -1,6 +1,7 @@
 .ui.accordion.custom-accordion .title:not(.ui){
     font-family: 'Rubik', sans-serif;
     font-size: 1.45em;
+    padding: 20px 0;
 }
 .ui.accordion.custom-accordion .title{
     text-transform: capitalize;
@@ -15,6 +16,14 @@
 .ui.accordion.custom-accordion .active.title .arrow.icon {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.ui.accordion.custom-accordion  .custom-accordion__item-content{
+    border-bottom: 1px dashed #ededed;
+}
+
+.ui.accordion.custom-accordion  .custom-accordion__item-content:last-of-type{
+    border-bottom: none;
 }
 
 .custom-accordion .tile-bottom-bar {
