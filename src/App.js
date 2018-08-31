@@ -8,9 +8,7 @@ import SincePart from './components/Since/Since';
 import MainPart from './components/Main/Main';
 import ServicesPart from "./components/ServicesList/ServicesList";
 import PortfolioPart from "./components/Portfolio/Portfolio";
-import AdsPart from "./components/Ads/Ads";
 import ContactsPart from "./components/Contacts/Contacts";
-import FooterPart from "./components/Footer/Footer";
 
 // Data
 import navItemsData from './data/navItems';
@@ -42,7 +40,7 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
+            <div className="App" id={'topPart'}>
                 <div className={this.isStickyTop()}>
                     <HeaderPart className="App__header-part"/>
                     <NavPart navItems={navItemsData}/>
@@ -58,7 +56,7 @@ class App extends Component {
                 <PortfolioPart id={'portfolioPart'}
                                title="Портфолио"
                                portfolioData={portfolioData}/>
-                <AdsPart title="Вас может заинтересовать:"/>
+                {/*<AdsPart title="Вас может заинтересовать:">*/}
                 <ContactsPart id={'contactsPart'}
                               title="Контакты"/>
             </div>

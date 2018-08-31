@@ -28,7 +28,7 @@ export default class CustomAccordion extends Component {
             <div key={item.index} className="custom-accordion__item-content">
                 <Accordion.Title active={activeIndex === item.index} index={item.index} onClick={this.handleClick}>
                     <Icon name='arrow circle right' />
-                    {item.title} ({item.images.length} фото)
+                    {item.title} <span className="custom-accordion__item-title-hint">({item.images.length} фото)</span>
                 </Accordion.Title>
                 <Accordion.Content active={activeIndex === item.index}>
                     {item.content}

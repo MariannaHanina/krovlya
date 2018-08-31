@@ -14,12 +14,12 @@ export default (props) => {
         <div className="main" id={id}>
             <Container {...otherProps}>
                 <Grid>
-                    <Grid.Column width={8}>
+                    <Grid.Column mobile={16} width={8} largeScreen={8} widescreen={8}>
                         <AboutUs class="main__about-us"
                                  title="О нас"
                                  text={aboutUsText}/>
                     </Grid.Column>
-                    <Grid.Column width={8}>
+                    <Grid.Column mobile={16} width={8} largeScreen={8} widescreen={8}>
                         <OurStrength className="main__our-strength"
                                      title="Почему мы"
                                      strengthsList={strengthsList}/>

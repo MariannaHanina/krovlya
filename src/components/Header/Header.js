@@ -5,9 +5,6 @@ import SocialLinks from 'components/SocialLinks/SocialLinks';
 import { Grid, Container } from 'semantic-ui-react';
 import './Header.css';
 
-// Data
-import snetworks from 'data/snetworks.js';
-
 export default (props) => {
     const { className, ...otherProps } = props;
 
@@ -16,16 +13,17 @@ export default (props) => {
             <Container className="header-part__content">
                 <Grid>
                     <Grid.Row className="header-part__contacts">
-                        <Grid.Column width={4}>
+                        <Grid.Column mobile={16} width={4} largeScreen={4} widescreen={4} >
                             <Logo className="header-part__logo"
                                   text="Посадский кровельщик"/>
                         </Grid.Column>
-                        <Grid.Column width={12}
-                                     textAlign="right">
+                        <Grid.Column mobile={16} width={12} largeScreen={12} widescreen={12}
+                                     textAlign="right"
+                                     verticalAlign="top">
                             <Phone className="header-part__phone"
                                    number="8 985 780-00-78"
                                    label="Позвоните нам:"/>
-                            <SocialLinks snetworks={snetworks}/>
+                            <SocialLinks/>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

@@ -12,15 +12,16 @@ export default (props) => {
             <Container>
                 <Header as="h2" className="contacts__title">{title}</Header>
                 <Grid {...props}>
-                    <Grid.Column width="8">
+                    <Grid.Column className="contacts__contact" mobile={16} width={8} largeScreen={8} widescreen={8}>
                         <a href="mailto:89857800078@yadex.ru"><Icon name="mail"/> 89857800078@yadex.ru</a>
                     </Grid.Column>
-                    <Grid.Column width="8">
-                        <a href="tel:+7(985)780-00-78"><Icon name="phone"/> +7 (985) 780-00-78</a> <span className="contacts__calling-time">без выходных с 9:00 до 20:00</span>
+                    <Grid.Column className="contacts__contact contacts__contact--with-hint" mobile={16} width={8} largeScreen={8} widescreen={8}>
+                        <a href="tel:+7(985)780-00-78" className="contacts__phone-link"><Icon name="phone"/> +7 (985) 780-00-78</a> <span className="contacts__calling-time">без выходных с 9:00 до 20:00</span>
                     </Grid.Column>
                 </Grid>
             </Container>
             <iframe className="contacts__map"
+                    title="Map"
                     src="https://yandex.ru/map-widget/v1/?um=constructor%3Acfbcfaaef06353f9e0c7fb994815ab85eeaa594f9e1bdb463d5695a1863d02e0&amp;source=constructor" width="100%" height="450" frameBorder="0"></iframe>
             <div className="created-by">
                 Created by <a href="mutterdu@mail.ru">MH</a> © 2018

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { Header, Container, Icon, Accordion } from 'semantic-ui-react';
-import Gallery from 'react-grid-gallery';
+import { Header, Container } from 'semantic-ui-react';
 import ImageGallery from 'react-image-gallery';
 import CustomAccordion from 'components/CustomAccordion/CustomAccordion';
 

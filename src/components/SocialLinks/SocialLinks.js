@@ -2,8 +2,6 @@ import React from 'react';
 import { List, Icon } from 'semantic-ui-react';
 import {
     FacebookShareButton,
-    GooglePlusShareButton,
-    TwitterShareButton,
     WhatsappShareButton,
     VKShareButton,
     OKShareButton,
@@ -12,20 +10,7 @@ import {
 
 import './SocialLinks.css';
 
-export default function (props){
-    const snetworks = props.snetworks;
-    const snetworksList = snetworks.map((item) => (
-        <List.Item className="social-links__item"
-                   key={item.id}>
-            <a className="social-links__link"
-               title={item.hint}
-               href={item.href}>
-                <Icon name={item.icon}/>
-            </a>
-        </List.Item>
-
-    ));
-
+export default function (){
     return (
         <List className="social-links"
               horizontal>
@@ -60,10 +45,9 @@ export default function (props){
             <List.Item className="social-links__item"
                        key='email'>
                 <EmailShareButton className="social-links__link"
-                                  url="krovlyasp.ru">
-                    <a href="mailto: 89857800078@yadex.ru">
+                                  subject="Посадский кровельщик. Монтаж кровли, сайдинга и сопустствующие работы. Сайт"
+                                  body='Ссылка на сайт компании "Посадский кровельщик", которая занимается монтажом кровли, сайдинга и сопустствующими работами: krovlyasp.ru'>
                         <Icon name="mail"/>
-                    </a>
                 </EmailShareButton>
             </List.Item>
         </List>

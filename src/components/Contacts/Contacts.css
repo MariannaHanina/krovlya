@@ -7,11 +7,32 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
     padding: 50px 0 30px;
 }
-
 .contacts__map {
     margin-top: 30px;
 }
 
 .contacts__calling-time {
     font-size: .9em;
+}
+
+@media screen and (max-width: 400px) {
+    .contacts__contact {
+        font-size: 1.3em;
+        padding-bottom: 0 !important;
+    }
+
+    .contacts__contact--with-hint {
+        display: flex !important;
+        align-items: flex-end;
+    }
+
+    .contacts__phone-link{
+        white-space: nowrap;
+    }
+    .contacts__calling-time {
+        padding-left: 10px;
+        padding-right: 45px;
+        font-size: .6em;
+        line-height: 1.1em;
+    }
 }

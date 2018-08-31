@@ -45,3 +45,15 @@
 .custom-accordion .tile{
     margin: 10px !important;
 }
+
+.custom-accordion__item-title-hint {
+    font-size: 0.7em;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 400px) {
+    .ui.accordion.custom-accordion .title:not(.ui){
+        font-size: 1.2em;
+        padding: 10px 0;
+    }
+}

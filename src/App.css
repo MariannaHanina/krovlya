@@ -109,7 +109,7 @@ h2.ui.header:after{
 }
 
 .App__top_sticky{
-    background: linear-gradient(to bottom, rgba(36,56,80,1) 1%,rgba(78,121,169,0.5) 100%);
+    background: linear-gradient(to bottom, rgba(36,56,80,1) 1%,rgba(78,121,169,0.8) 100%);
     position: fixed;
     transition: 10s;
 }
@@ -123,4 +123,24 @@ h2.ui.header:after{
     font-size: 15px;
     text-align: center;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    h2.ui.header {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    h2.ui.header:after{
+        width: 60px;
+    }
+    .App {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.35) 10%, rgba(0, 0, 0, 0) 100%), url('images/bg.jpg') no-repeat center top;
+        background-attachment: fixed;
+        background-size: 200%;
+        padding-top: 170px;
+    }
+
+    .App__presentation-info {
+        margin-bottom: 45px;
+    }
 }

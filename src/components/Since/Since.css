@@ -29,3 +29,15 @@ a.since__button:hover{
     color: #fff;
     opacity: .9;
 }
+
+@media screen and (max-width: 400px) {
+    .since__text{
+        font-size: 19px;
+        padding: 8px !important;
+        text-align: center;
+    }
+
+    .since__button-container{
+        display: none !important;
+    }
+}

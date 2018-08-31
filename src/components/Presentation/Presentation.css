@@ -28,3 +28,20 @@
 .presentation__button a{
     color: #fff !important;
 }
+
+@media screen and (max-width: 400px) {
+    .presentation__general-text {
+        font-size: 30px;
+    }
+
+    .presentation__main-text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .presentation__button{
+        display: none !important;
+    }
+}

@@ -21,3 +21,10 @@
 .ui.horizontal.list>.item.social-links__item a{
     color: #fff;
 }
+
+@media screen and (max-width: 400px) {
+    .social-links {
+        margin-top: 8px !important;
+        vertical-align: top;
+    }
+}
