@@ -17,28 +17,28 @@ export default function (){
             <List.Item className="social-links__item"
                        key='vk'>
                 <VKShareButton className="social-links__link"
-                               url="krovlyasp.ru">
+                               url="http://krovlya.ecostroymsk.ru">
                     <Icon name="vk"/>
                 </VKShareButton>
             </List.Item>
             <List.Item className="social-links__item"
                        key='fb'>
                 <FacebookShareButton className="social-links__link"
-                                     url="krovlyasp.ru">
+                                     url="http://krovlya.ecostroymsk.ru">
                     <Icon name="facebook"/>
                 </FacebookShareButton>
             </List.Item>
             <List.Item className="social-links__item"
                        key='ok'>
                 <OKShareButton className="social-links__link"
-                                     url="krovlyasp.ru">
+                                     url="http://krovlya.ecostroymsk.ru">
                     <Icon name="odnoklassniki"/>
                 </OKShareButton>
             </List.Item>
             <List.Item className="social-links__item"
                        key='whatsapp'>
                 <WhatsappShareButton className="social-links__link"
-                               url="krovlyasp.ru">
+                               url="http://krovlya.ecostroymsk.ru">
                     <Icon name="whatsapp"/>
                 </WhatsappShareButton>
             </List.Item>
@@ -46,7 +46,7 @@ export default function (){
                        key='email'>
                 <EmailShareButton className="social-links__link"
                                   subject="Посадский кровельщик. Монтаж кровли, сайдинга и сопустствующие работы. Сайт"
-                                  body='Ссылка на сайт компании "Посадский кровельщик", которая занимается монтажом кровли, сайдинга и сопустствующими работами: krovlyasp.ru'>
+                                  body='Ссылка на сайт компании "Посадский кровельщик", которая занимается монтажом кровли, сайдинга и сопустствующими работами: http://krovlya.ecostroymsk.ru'>
                         <Icon name="mail"/>
                 </EmailShareButton>
             </List.Item>
